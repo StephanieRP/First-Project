@@ -195,10 +195,10 @@ a:active {
 header {
   background-image:
 -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))),
-  url('../imgs/hero-min.jpg');
+  url('../imgs/hero.jpg');
   background-image:
 linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-  url('../imgs/hero-min.jpg');
+  url('../imgs/hero.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -219,15 +219,19 @@ linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
   height: 100px;
   width: auto;
   float: left;
-  margin-top: 20px;
+  margin-top: 50px;
+  color: #E67E22;
+  font-size: 30px;
 }
 
-.logo-black {
+.logo-nav {
   display: none;
   height: 50px;
   width: auto;
   float: left;
-  margin: 5px 0;
+  margin: 8px 0;
+  color: #E67E22;
+  font-size: 30px;
 }
 /*  --- Main Nav---*/
 
@@ -284,7 +288,7 @@ border-bottom: 2px solid #E67E22;
   padding: 15px 0;
 }
 
-.sticky .logo-black {
+.sticky .logo-nav {
   display: block;
 }
 
@@ -468,11 +472,17 @@ blockquote:before {
 }
 
 cite img {
-  height: 45px;
+  height: 80px;
+  width: 80px;
   border-radius: 50%;
   margin-right: 10px;
+  margin-top: 5px;
   vertical-align: middle;
+  margin-left: 30px;
+
 }
+
+
 
 /* --------------------------------- */
 /* Meal Plan */
